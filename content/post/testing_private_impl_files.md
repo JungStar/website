@@ -13,7 +13,7 @@ tags:
   - Linux
 ---
 ## The Problem
-When writing C++ I often find myself in a situation where I want to write tests for private implementation files. Consider a small example project with the following folder structure:
+When writing C++ code, I often find myself in a situation where I want to write tests for private implementation files. Consider a small example project with the following folder structure:
 ```
 component
 ├── include
@@ -28,8 +28,10 @@ component
 │   └── CMakeLists.txt
 └── CMakeLists.txt
 ```
+When writing tests in `test/test.t.cpp`, how can we access private implementions from `private_include` setting this directory as public include dir?
+
 ### The "pitfall" solution
-I have seen people do ungodly things, like including the relevant source file in their sources.
+I have seen people do things, like including the relevant source file in their sources.
 ```cmake
 # This is the wrong thing to do
 SET (SOURCES 
@@ -48,7 +50,7 @@ target_include_directories (<component_target> PRIVATE private_include)
 target_link_libraries(<component_target> PRIVATE <private_link_dependency>)
 ```
 Meaning, we already specify all required information, we simply need to access it within our test environment.
-This can be done using CMakes property system, i.e.,we ca get the necessary properties from `<component_target>` and reuse them for `<test_target>`:
+This can be done using CMakes property system, i.e., we ca get the necessary properties from `<component_target>` and reuse them for `<test_target>`:
 ```cmake 
 get_target_property (private_include_dirs <test_target> INCLUDE_DIRECTORIES)
 get_target_property (private_link_libraries <test_target> LINK_LIBRARIES)
@@ -70,7 +72,7 @@ If you are hidding ELF symbols by default like me, this method has the drawback 
 for the symbol in question, both gcc and clang support this syntax.
 As a side note, with modern CMake versions > 3.0.2, you can auto generate a cross platform export definition using `GenerateExportHeader`[^2]
 
-See my other post on symbol visibility if you want to dive deeper into this issue
+See my other post on symbol visibility if you want to dive deeper into this issue.
 
 [^1]: https://gcc.gnu.org/wiki/Visibility
 [^2]: https://cmake.org/cmake/help/v3.0/module/GenerateExportHeader.html
