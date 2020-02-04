@@ -4,7 +4,7 @@ name: Philipp Jung
 
 # Username (this should match the folder name)
 authors:
-- admin
+- philippjung
 
 # Is this the primary user of the site?
 superuser: true

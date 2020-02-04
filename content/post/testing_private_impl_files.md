@@ -2,10 +2,10 @@
 title: "Using modern CMake to test private C++ implementation files"
 summary: "Using modern CMake to test private C/C++ implementation files without exposing them to the library user."
 draft: true
-#date: "2018-06-28T00:00:00Z"
-authors: ["admin"]
+date: "2020-01-01T00:00:00Z"
+authors: ["philippjung"]
 categories:
-  - "example"
+  - "programming"
 tags:
   - C++
   - C 
@@ -36,8 +36,8 @@ SET (SOURCES
       ../src/private_impl.cpp
       test.t.cpp)
 ```
-Why is this a bad solution? Well, first, the implementation in `src/private_impl.cpp` is not out of context, e.g., link dependencies may no longer be satisfied. 
-Second, if you codebase is anything like the ones I have seen, there is probably logic (within CMake or otherwise) that sets context (like macros) depending on the current component. With the "patch" from before we now test `private_impl.cpp` in another context than it is used in the rest of our codebase.
+Why is this a bad solution? Well, first, the implementation in `src/private_impl.cpp` is out of context, e.g., link dependencies may no longer be satisfied. 
+Second, oftentimes there exists some logic (within CMake or otherwise) that sets context (like macros) depending on the current component. With the "patch" from before we now test `private_impl.cpp` in another context than it is used in the rest of our codebase.
 
 ### A better solution
 Luckily, modern CMake has our back. The relevant parts of the component level `CMakeLists.txt` could look something like this:
@@ -68,11 +68,9 @@ If you are hidding ELF symbols by default like me, this method has the drawback 
 > `__attribute__ ((visibility ("default")))` 
 
 for the symbol in question, both gcc and clang support this syntax.
-As a side note, since CMake <add version>, you can auto generate a cross platform export definition using `GenerateExportHeader`[^2]
-
-
+As a side note, with modern CMake versions > 3.0.2, you can auto generate a cross platform export definition using `GenerateExportHeader`[^2]
 
 See my other post on symbol visibility if you want to dive deeper into this issue
 
-[^1] https://gcc.gnu.org/wiki/Visibility
-[^2] https://cmake.org/cmake/help/v3.0/module/GenerateExportHeader.html
+[^1]: https://gcc.gnu.org/wiki/Visibility
+[^2]: https://cmake.org/cmake/help/v3.0/module/GenerateExportHeader.html
