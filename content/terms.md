@@ -1,7 +1,7 @@
 ---
 title: Terms
 date: "2018-06-28T00:00:00+01:00"
-draft: true
+draft: false
 share: false
 commentable: false
 editable: false
@@ -12,4 +12,24 @@ header:
   image: ""
 ---
 
-Add your terms here and set `draft: false` to publish it. Otherwise, delete this file if you don't need it.
+If not specified otherwise, all content has been created by Philipp Jung and is licenced under a [Creative Commons Attribution 3.0 Unported Licence](https://creativecommons.org/licenses/by/3.0/deed.en_GB). 
+
+"In Germany, websites are required by law to show some address information about their owners. As a courtesy towards the smart politicians who crusaded for this law, I am including this information."
+
+Thanks to [Bastian Rieck](http://bastian.rieck.me/) for that little comment ;)
+
+—–BEGIN GERMAN LEGAL MUMBO-JUMBO—–
+>
+>    Verantwortlich für diese Webseite ist im Sinne aller geltenden deutschen Gesetze:
+>
+>    Philipp Jung 
+>    Karlsruher Str. 48 
+>    69126 Heidelberg 
+>
+>    philippjung@mailbox.org
+>
+—–END GERMAN LEGAL MUMBO-JUMBO—
+
+
+
+

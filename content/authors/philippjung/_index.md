@@ -18,7 +18,7 @@ organizations:
   url: "https://www.volumegraphics.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My interest include C++, Rust, modern CMake and other programming related topics.
 
 interests:
 - C++
@@ -27,15 +27,12 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: M.Sc. Computer Science with distinction
+    institution: Heidelberg University
+    year: 2019
+  - course: B.Sc. Computer Science
+    institution: Heidelberg University
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -66,7 +63,8 @@ user_groups:
 - Researchers
 - Visitors
 ---
+Welcome to my personal website. 
+I am a Software Engineer at [Volume Graphics](https://www.volumegraphics.com/), in Heidelberg, Germany. 
+Previously, I obtained my bachelor's and master's degree in computer science from Heidelberg University.
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust and other technical topics.
