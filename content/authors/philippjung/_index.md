@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: M.Sc. Computer Science with distinction
+  - course: M.Sc. Computer Science
     institution: Heidelberg University
     year: 2019
   - course: B.Sc. Computer Science
