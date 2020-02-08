@@ -65,6 +65,6 @@ user_groups:
 ---
 Welcome to my personal website. 
 I am a Software Engineer at [Volume Graphics](https://www.volumegraphics.com/), in Heidelberg, Germany. 
-Previously, I obtained my bachelor's and master's degree in computer science from Heidelberg University.
+Previously, I obtained my bachelor's and master's degree in Computer Science from Heidelberg University.
 
-You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust and other technical topics.
+You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust, and other technical topics.
