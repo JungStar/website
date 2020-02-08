@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158047558-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-158047558-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -678,8 +716,8 @@
 I am a Software Engineer at 
 <a href="https://www.volumegraphics.com/" target="_blank" rel="noopener">Volume Graphics</a>
 , in Heidelberg, Germany.
-Previously, I obtained my bachelor's and master's degree in computer science from Heidelberg University.</p>
-<p>You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust and other technical topics.</p>
+Previously, I obtained my bachelor&rsquo;s and master&rsquo;s degree in Computer Science from Heidelberg University.</p>
+<p>You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust, and other technical topics.</p>
 
 
     <div class="row">
