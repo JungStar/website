@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philipp Jung</title>
-    <link>/authors/philippjung/</link>
-      <atom:link href="/authors/philippjung/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://philipp-jung.de/authors/philippjung/</link>
+      <atom:link href="http://philipp-jung.de/authors/philippjung/index.xml" rel="self" type="application/rss+xml" />
     <description>Philipp Jung</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Philipp Jung</title>
-      <link>/authors/philippjung/</link>
+      <link>http://philipp-jung.de/authors/philippjung/</link>
     </image>
     
     <item>
       <title>Using modern CMake to test private C&#43;&#43; implementation files</title>
-      <link>/post/testing_private_impl_files/</link>
+      <link>http://philipp-jung.de/post/testing_private_impl_files/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/post/testing_private_impl_files/</guid>
+      <guid>http://philipp-jung.de/post/testing_private_impl_files/</guid>
       <description>&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;When writing C++ code, I often find myself wanting to write tests for private implementation files. Consider a small example project with the following folder structure:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;component&amp;gt;

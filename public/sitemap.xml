@@ -3,78 +3,80 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/philippjung/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/authors/philippjung/</loc>
+    <lastmod>2020-02-08T10:11:19+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/authors/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/c/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/tags/c/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/c&#43;&#43;/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/tags/c&#43;&#43;/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cmake/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/tags/cmake/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/tags/linux/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/tags/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/post/testing_private_impl_files/</loc>
+    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/testing_private_impl_files/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <loc>http://philipp-jung.de/terms/</loc>
+    <lastmod>2020-02-05T17:50:52+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>http://philipp-jung.de/categories/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://philipp-jung.de/post/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>http://philipp-jung.de/publication_types/</loc>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>http://philipp-jung.de/publication/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>http://philipp-jung.de/talk/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/true/</loc>
+    <loc>http://philipp-jung.de/true/</loc>
   </url>
   
 </urlset>
