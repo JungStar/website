@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Philipp Jung</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://philipp-jung.de/tags/</link>
+      <atom:link href="http://philipp-jung.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>http://philipp-jung.de/tags/</link>
     </image>
     
     <item>
       <title>C</title>
-      <link>/tags/c/</link>
+      <link>http://philipp-jung.de/tags/c/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/c/</guid>
+      <guid>http://philipp-jung.de/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C&#43;&#43;</title>
-      <link>/tags/c&#43;&#43;/</link>
+      <link>http://philipp-jung.de/tags/c&#43;&#43;/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/c&#43;&#43;/</guid>
+      <guid>http://philipp-jung.de/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CMake</title>
-      <link>/tags/cmake/</link>
+      <link>http://philipp-jung.de/tags/cmake/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/cmake/</guid>
+      <guid>http://philipp-jung.de/tags/cmake/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>http://philipp-jung.de/tags/linux/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/linux/</guid>
+      <guid>http://philipp-jung.de/tags/linux/</guid>
       <description></description>
     </item>
     
