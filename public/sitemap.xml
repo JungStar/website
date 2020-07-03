@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://philipp-jung.de/authors/philippjung/</loc>
-    <lastmod>2020-02-08T10:11:19+01:00</lastmod>
+    <loc>http://philipp-jung.de/authors/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://philipp-jung.de/authors/</loc>
-    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
+    <loc>http://philipp-jung.de/tags/docker/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/tags/docker-compose/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/tags/infrastructure-as-code/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/tags/jenkins/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/post/jenkins_configuration_as_code_with_docker_compose/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/tags/</loc>
+    <lastmod>2020-06-14T14:16:00+02:00</lastmod>
   </url>
   
   <url>
@@ -33,16 +63,6 @@
   </url>
   
   <url>
-    <loc>http://philipp-jung.de/</loc>
-    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://philipp-jung.de/tags/</loc>
-    <lastmod>2020-02-05T19:44:47+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://philipp-jung.de/post/testing_private_impl_files/</loc>
     <lastmod>2020-02-05T19:44:47+01:00</lastmod>
   </url>
@@ -50,6 +70,11 @@
   <url>
     <loc>http://philipp-jung.de/terms/</loc>
     <lastmod>2020-02-05T17:50:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://philipp-jung.de/authors/philippjung/</loc>
+    <lastmod>2020-02-08T10:11:19+01:00</lastmod>
   </url>
   
   <url>

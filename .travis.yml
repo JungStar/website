@@ -1,0 +1,12 @@
+language: ruby
+
+services:
+  - docker
+
+env:
+  - IMAGE=klakegg/hugo:0.73.0-ext-alpine
+before_install:
+- docker pull $IMAGE
+
+script:
+- docker run -rm -v $(pwd):/src $IMAGE

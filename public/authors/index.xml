@@ -5,26 +5,12 @@
     <link>http://philipp-jung.de/authors/</link>
       <atom:link href="http://philipp-jung.de/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
       <link>http://philipp-jung.de/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>http://philipp-jung.de/authors/philippjung/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://philipp-jung.de/authors/philippjung/</guid>
-      <description>&lt;p&gt;Welcome to my personal website.
-I am a Software Engineer at 
-&lt;a href=&#34;https://www.volumegraphics.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Volume Graphics&lt;/a&gt;
-, in Heidelberg, Germany.
-Previously, I obtained my bachelor&amp;rsquo;s and master&amp;rsquo;s degree in Computer Science from Heidelberg University.&lt;/p&gt;
-&lt;p&gt;You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust, and other technical topics.&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

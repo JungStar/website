@@ -5,12 +5,22 @@
     <link>http://philipp-jung.de/</link>
       <atom:link href="http://philipp-jung.de/index.xml" rel="self" type="application/rss+xml" />
     <description>Philipp Jung</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Philipp Jung</title>
       <link>http://philipp-jung.de/</link>
     </image>
+    
+    <item>
+      <title>Jenkins Configuration as Code with Docker Compose</title>
+      <link>http://philipp-jung.de/post/jenkins_configuration_as_code_with_docker_compose/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://philipp-jung.de/post/jenkins_configuration_as_code_with_docker_compose/</guid>
+      <description>&lt;h2 id=&#34;why-configuration-as-code&#34;&gt;Why Configuration as Code?&lt;/h2&gt;
+&lt;p&gt;I have been using Jenkins heavily for automation and CI/CD tasks over the last year. Pretty fast I got excited and started automating as many of my regular tasks as possible. And Jenkins is a great tool for that. However, soon I realized that the state of my Jenkins server was hard to reproduce, and should my infrastructure ever fail, there wouldn&amp;rsquo;t be an easy way to get back to my current configuration. Sure, I had a regular backup of the Jenkins configuration (i.e., Jenkins home). But those are mainly XML files that are hard to read and almost impossible to maintain. The solution: Use declarative pipelines, i.e., Jenkinsfiles, that are tracked by git (or any other SCM). This way at least the jobs themselves are backed up. But what about the rest of the Jenkins configuration: Plugins, credentials or libraries. As of 2018 there exist Jenkins Configuration as Code (JCasC), which uses easy to understand &lt;code&gt;yaml&lt;/code&gt; files to capture the Jenkins configuration. In the following we will see how such a basic configuration could look like. And as a little bonus, we can even script the &amp;ldquo;seed&amp;rdquo; jobs that use Jenkinsfile from SCM checkouts using the &lt;code&gt;job-dsl&lt;/code&gt; plugin&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using modern CMake to test private C&#43;&#43; implementation files</title>
