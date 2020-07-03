@@ -12,5 +12,4 @@ script:
 - docker run --rm -v $(pwd):/src $IMAGE
 
 script:
-  provider: script
-  script: bash scripts/deploy.sh
+- bash scripts/deploy.sh
