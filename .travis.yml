@@ -11,6 +11,6 @@ before_install:
 script:
 - docker run --rm -v $(pwd):/src $IMAGE
 
-deploy:
+script:
   provider: script
   script: bash scripts/deploy.sh
