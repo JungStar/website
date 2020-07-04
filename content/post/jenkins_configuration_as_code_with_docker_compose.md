@@ -1,7 +1,7 @@
 ---
 title: "Jenkins Configuration as Code with Docker Compose"
 summary: "How to setup a Jenkins server with Docker Compose and Jenkins Configuration as Code (JCasC)"
-draft: false
+draft: true
 date: "2020-06-12T00:00:00Z"
 authors: 
   - philippjung
