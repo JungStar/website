@@ -13,9 +13,12 @@ superuser: true
 role: Software Engineer
 
 # Organizations/Affiliations
+#organizations:
+#- name: Volume Graphics
+#  url: "https://www.volumegraphics.com/"
 organizations:
-- name: Volume Graphics
-  url: "https://www.volumegraphics.com/"
+- name: SAP
+  url: "https://www.sap.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interest include C++, Rust, modern CMake and other programming related topics.
@@ -63,8 +66,8 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Welcome to my personal website. 
-I am a Software Engineer at [Volume Graphics](https://www.volumegraphics.com/), in Heidelberg, Germany. 
-Previously, I obtained my bachelor's and master's degree in Computer Science from Heidelberg University.
+Welcome to my personal website.
+I am a Software Engineer at [SAP](http://www.sap.com/) in Walldorf, Germany.
+Before that I obtained my bachelor's and master's degree in Computer Science from Heidelberg University.
 
 You can find my contact info on the contact tab. This site contains information about my career and various things I am interested in, including a small blog where I post about C++, CMake, Rust, and other technical topics.
