@@ -16,7 +16,7 @@ function view_update () {
   echo -e "Checking for updates...\n"
   cd themes/academic
   git fetch
-  git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/master
+  git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/main
   cd ../../
 }
 
