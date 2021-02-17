@@ -13,7 +13,7 @@ tags:
 ---
 ## The Problem
 When writing C++ code, I often find myself wanting to write tests for private implementation files. Consider a small example project with the following folder structure:
-```cpp
+```r
 <component>
 ├── include
 │   └── src.h
